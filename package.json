@@ -1,0 +1,29 @@
+{
+  "name": "tailwindcoloradder",
+  "version": "1.0.0",
+  "description": "An automation script used to add all the colors variable from root css to tailwind for easy usage",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanishchugh01/tailwindColorAdder.git"
+  },
+  "keywords": [
+    "tailwind",
+    "automation",
+    "globalColors",
+    "css",
+    "nodejs",
+    "cli",
+    "regex"
+  ],
+  "author": "tanishchugh01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanishchugh01/tailwindColorAdder/issues"
+  },
+  "homepage": "https://github.com/tanishchugh01/tailwindColorAdder#readme"
+}
