@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcoloradder",
+  "name": "tailwind-color-adder",
   "version": "1.0.0",
   "description": "An automation script used to add all the colors variable from root css to tailwind for easy usage",
   "main": "index.js",
