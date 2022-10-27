@@ -15,6 +15,8 @@ let rootString = appcss.slice(rootInd, rootEndInd);
 
 let colorArray = rootString.match(/([\w]+)(?=:)/g);
 
+console.log("Colors found:", colorArray);
+
 const colorInd = tailwind.indexOf("colors");
 const colorEndInd = tailwind.indexOf("}", colorInd) + 1;
 let colorsObjStart = tailwind.indexOf("{", colorInd);
@@ -31,3 +33,6 @@ let newTailWind =
 // console.log(newTailWind);
 
 fs.writeFileSync("./tailwind.config.js", newTailWind);
+
+// if error is trown code is blocked, will not reach here
+console.log("Colors added sucessfully");
