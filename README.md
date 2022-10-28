@@ -11,7 +11,7 @@ npx tailwind-color-adder
  
 (npx is a package runner tool that comes with npm 5.2+ and higher)
 
-
+<hr>
 To globally install this package
 
 ```
@@ -24,3 +24,8 @@ Run this script after changing root colors in file and run this file from root o
 ```
 tailwind-color-adder
 ```
+
+<hr>
+
+Issues and suggestions are welcome.
+https://github.com/tanishchugh01/tailwindColorAdder/issues
