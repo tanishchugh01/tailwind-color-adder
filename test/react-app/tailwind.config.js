@@ -1,5 +1,4 @@
 /** @type {
- "varColor": "var(--varColor)"
 } */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
