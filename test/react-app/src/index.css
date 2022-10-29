@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* These colors are currently not being added */
+:root{
+  --indexColor:#234567;
+}

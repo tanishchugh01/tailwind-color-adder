@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+
+/* These colors are being added to tailwind.config.js */
+:root{
+  --varColor:#823761;
+  --varUnaddedColor:#456780;
+}

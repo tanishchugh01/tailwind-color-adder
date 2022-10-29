@@ -1,8 +1,14 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {
+ "varColor": "var(--varColor)"
+} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-   theme: {
-    extend: {},
+  theme: {
+    extend: {
+      colors: {
+        varColor: "var(--varColor)",
+      },
+    },
   },
   plugins: [],
 };
