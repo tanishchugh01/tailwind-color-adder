@@ -1,6 +1,6 @@
 {
   "name": "tailwind-color-adder",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "An automation script used to add all the colors variable from root css to tailwind for easy usage",
   "main": "index.js",
   "bin": "./index.js",
@@ -20,6 +20,8 @@
     "cli",
     "regex",
     "react"
+    ,"css-variable",
+    "tailwind-plugin"
   ],
   "author": "tanishchugh01",
   "preferGlobal": true,
@@ -27,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/tanishchugh01/tailwindColorAdder/issues"
   },
-  "homepage": "x "
+  "homepage": "https://github.com/tanishchugh01/tailwindColorAdder#readme"
 }
