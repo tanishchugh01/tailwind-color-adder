@@ -1,0 +1,4 @@
+# Excluding test folder decrease the quality of npm package in ranking, thus commented
+# /test
+
+# /node_modules
