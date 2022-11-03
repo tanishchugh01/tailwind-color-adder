@@ -41,6 +41,51 @@ Run this script after changing root colors in file and run this file from root o
 tailwind-color-adder
 ```
 
+## Files
+
+_app.css_
+```
+:root{
+  --varColor:#823761;
+  --varUnaddedColor:#456780;
+}
+```
+
+### Before
+
+_tailwind.config.js_
+```
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        varColor: "var(--varColor)",
+      },
+    },
+  },
+  plugins: [],
+};
+```
+
+### After
+
+_tailwind.config.js_
+```
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+ "varColor": "var(--varColor)",
+ "varUnaddedColor": "var(--varUnaddedColor)"
+},
+    },
+  },
+  plugins: [],
+};
+```
+
 ## Issues
 Issues and suggestions are welcome.
 https://github.com/tanishchugh01/tailwindColorAdder/issues
