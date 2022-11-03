@@ -3,9 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
- "varColor": "var(--varColor)",
- "varUnaddedColor": "var(--varUnaddedColor)"
-},
+        varColor: "var(--varColor)",
+      },
     },
   },
   plugins: [],

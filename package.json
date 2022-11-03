@@ -19,8 +19,8 @@
     "nodejs",
     "cli",
     "regex",
-    "react"
-    ,"css-variable",
+    "react",
+    "css-variable",
     "tailwind-plugin"
   ],
   "author": "tanishchugh01",
