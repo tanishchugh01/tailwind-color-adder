@@ -4,7 +4,7 @@
 
 <div align=center>
 <a href="https://www.npmjs.com/package/tailwind-color-adder">
-<img src="https://img.shields.io/npm/dw/tailwind-color-adder.svg">
+<img src="https://img.shields.io/npm/dt/tailwind-color-adder.svg">
 <img src="https://img.shields.io/npm/v/tailwind-color-adder">
 </a>
 </div>
